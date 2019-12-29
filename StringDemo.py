@@ -1,0 +1,21 @@
+
+name = "hello"
+print(name.capitalize())
+
+print(name.isalpha())
+print(name.isalnum())
+print(name.index('e'))
+print(name.casefold())
+print(name.find("Wod"))
+print(name.count('o'))
+print(name.upper())
+print(name.lower())
+print(name.swapcase())
+print(name.isdecimal())
+print(name.isdigit())
+print(name.isidentifier())
+print(name.split("ell"))
+print(name.title())
+print(len(name))
+print(name[::-1])
+print(name.replace('e', 'a'))
