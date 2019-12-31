@@ -1,13 +1,12 @@
 def selectionsort(nums):
     for i in range(len(nums)-1):
         minpos = i
-        for j in range(i,len(nums)):
+        for j in range(i, len(nums)):
             if nums[j] < nums[minpos]:
-                minpos = j
+                midpos = j
         temp = nums[i]
-        nums[i] = nums[minpos]
-        nums[minpos] = temp
-
+        nums[i] = nums[midpos]
+        nums[midpos] = temp
     return nums
 
 
